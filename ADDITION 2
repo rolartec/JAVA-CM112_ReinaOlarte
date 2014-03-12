@@ -1,0 +1,45 @@
+// ADDITION  2 NUMBERS
+//  BY  REINA OLARTE
+import java.util.Scanner;
+
+
+public class ADDITION2
+{
+
+	public static void main(String[] args)
+	{
+	Scanner input = new Scanner( System.in );
+	
+	int number1;
+	int number2;
+	int sum;
+	int subt;
+	int mult;
+	int div;
+	
+	
+	System.out.println( "Enter first integer: ");
+	number1 = input.nextInt();
+	System.out.println( "Enter second integer: ");
+	number2 = input.nextInt();
+	sum = number1 + number2;
+	subt = number1 - number2;
+	mult = number1 * number2;
+	div = number1 / number2;
+	
+	
+	System.out.printf( "Sum is %d\n ", sum);
+	
+	System.out.printf( " Subtration is %d\n", subt);
+	
+	System.out.printf( " Multiplication is %d\n" , mult);
+	
+	System.out.printf( "Division is %d\n" , div);
+	
+	// end method main
+	// end class ADDITION2
+	
+		
+	}
+
+}
