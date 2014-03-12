@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Hungry1
+{	
+public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		String thirsty;
+		System.out.println("You are Hungry");
+		System.out.println("Get in line");		
+System.out.println("Buy Lunch");	
+	//Ask if they are thirsty
+		System.out.println("If you are thirsty press Y for yes N for no: ");
+		thirsty = input.nextLine().toUpperCase();		
+if (thirsty.equals("Y"))		{			
+System.out.println("Buy a coke");
+		}		
+else		{			
+System.out.println("Buy a water");		
+}		System.out.println("Eat your Lunch");	
+	System.out.println("Return Tray");	
+	System.out.println("Your are full you may leave");
+	}
+}
